@@ -27,6 +27,6 @@ public class Book {
         System.out.println("ID: " + bookId +
                 ", Title: " + title +
                 ", Author: " + author +
-                ", Issued: " + isIssued);
+                ", Status: " + (isIssued ? "Issued" : "Available"));
     }
 }
